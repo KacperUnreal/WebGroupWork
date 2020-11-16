@@ -1,0 +1,130 @@
+<html>
+
+	<head>
+	
+		<title>Welcome!</title>    <!This is the title in the tab header>
+		
+		<script>
+		
+			function show()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "block";
+			}
+			
+			function hideabout()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "none";
+			}
+		
+		</script>
+		
+		
+	</head>
+	
+	<style> 
+	
+		body{
+			background-image: url("images/Abstract.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		
+		a:link{
+			color: white;
+			background-color: transparent;
+			text-decoration: none;
+		
+		}
+		
+		a:visited{
+			color: rgb(119, 254, 246);
+			background-color: transparent;
+			text-decoration: none;
+		}
+	
+	</style>
+	
+	
+
+	<body>
+	
+	
+	
+	
+		
+		<div class="header" > 
+						
+			<div style="
+					float:right;
+					font-size: 2rem;
+					color: white;
+					">
+			
+				<a href="Index.html">Home </a>| Contact | CV | <a onclick="show()" href='#'>About</a>
+				
+			</div>	
+			
+		</Div>	
+		
+
+		<div id="about" style="display: none; background: black; border: 1rem solid black; position: absolute; right: 1rem; top: 3rem; ">
+			
+			<img style="height: 100px" src="images/Abstract.jpg">
+			
+			<a onclick="hideabout()" href='#'> Close </a>
+		
+		
+		
+		</div>
+		
+		
+			<p style="
+					font-weight: bold;
+					font-size: 10rem;
+					text-align: center; 
+					color: white;
+					padding-top: 10rem;
+					">
+				
+				Kacper Wozniak 
+				
+			</p> 
+			
+			<p style="
+					font-weight: bold;
+					font-size: 3rem;
+					text-align: center;
+					color: white;
+					">
+			
+				A Games Design Portfolio
+			
+			</p>
+		
+			
+			
+			<p style="
+					font-weight: bold;
+					font-size: 2rem;
+					text-align: center;
+					color: white;
+					"> 
+				
+				<a href="Zbrush.html">ZBrush </a>| Maya | Substance Designer | Unreal Engine 4
+
+			</p>
+		
+		
+		
+		
+	
+	</body>
+
+
+
+
+
+
+</html>

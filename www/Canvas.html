@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+	
+		<title>HTML5 Canvas</title>
+		
+		<script>
+		
+			var x = 0;
+			var playerImage;
+			
+			function load()
+			{
+
+				// Allocate a new image and assign it to our previous variable
+				playerImage = new Image();
+					// Set the src (the path of the image). This will be loaded by the browser but may not be loaded immediately
+				playerImage.src = "images/player.png";
+
+			}
+			
+			function main()
+			{
+			
+					//call the load function
+					load();
+					
+					//get canvas reference
+					var canvas = document.getElementById("canvas")
+					
+					canvas.width = 640;
+					canvas.height = 640;
+					
+					//create our context
+					var ctx = canvas.getContext("2d");
+					
+					//call our draw function
+					draw(ctx);
+			}
+			
+			function draw(ctx)
+			{
+				
+				ctx.fillStyle = "gray";
+				ctx.fillRect( 0, 0, 640, 640);
+
+				
+				//draw the player image
+				ctx.drawImage(playerImage,
+						0, 0, //(x, y) of image
+						100, 100, // height and width of image
+						50, 50, // where on canvas to draw (x, y)
+						200, 200); // how big on canvas (w, h)
+				
+				
+				x++;
+				
+				//ask the browser to call this function on every frame
+				window.requestAnimationFrame(function(){draw(ctx);});
+			}
+			
+			
+			window.onload = main;
+		
+		</script>
+		
+	</head>
+	
+	<body>
+		<canvas id="canvas" style="background: rgba(0, 0, 0, 0.4);"></canvas>
+	</body>
+	
+	
+</html>
