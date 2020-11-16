@@ -14,3 +14,23 @@
 	width:375px;
 	float:right;
 }
+body
+{
+	background-image: url("../images/Abstract.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}	
+a:link
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+		
+}		
+a:visited
+{
+	color: rgb(119, 254, 246);
+	background-color: transparent;
+	text-decoration: none;
+}
+	
