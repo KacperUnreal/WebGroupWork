@@ -19,7 +19,7 @@
 
 body 				
 {
-	background-image: url("../images/Abstract.jpg");
+	background-image: url("../images/Background2.png");
 	background-repeat: repeat-y;
 	background-size: 100%;
 }	
@@ -38,7 +38,7 @@ a:link
 a:visited
 
 {
-	color: rgb(119, 254, 246); 
+	color: rgb(124, 0, 0); 
 	background-color: transparent;
 	text-decoration: none;
 }
