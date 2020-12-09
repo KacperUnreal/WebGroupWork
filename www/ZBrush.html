@@ -5,7 +5,21 @@
 		<title>Welcome!</title>    <!--This is the title in the tab header-->
 		<link rel="stylesheet"type="text/css" href="css/style.css"/>
 		
+			<script>
 		
+			function show()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "block";
+			}
+			
+			function hideabout()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "none";
+			}
+		
+			</script>	
 		
 		
 		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -24,7 +38,7 @@
 	
 	
 		
-		<div style="background-color:rgba(0, 0, 0, 0.4); height:3rem; width:375px; float:right;">    <!--return of the header div!-->
+		<div style="background-color:rgba(0, 0, 0, 0.4); height:3rem; width:375px; float:right; z-index: +5;">    <!--return of the header div!-->
 						
 			<div style="
 					float:right;
@@ -32,9 +46,24 @@
 					color: white;
 					">
 			
-				<a href="Index.html">Home </a>| Contact | CV | About
+				<a href="Index.html">Home </a>| Contact | CV | <a onclick="show()" href='#'>About</a>
 				
 			</div>	
+			
+			
+		
+		<div id="about" style="display: none; background: black; border: 1rem solid black; position: absolute; right: 1rem; top: 3rem; ">   <!--This is the div that opens when about is clicked-->
+			
+			<img style="height: 250px" src="images/black.png">
+			
+			<a onclick="hideabout()" href='#'> Close </a>
+		
+		
+		
+		</div>
+			
+			
+			
 			
 		</Div>	
 		
