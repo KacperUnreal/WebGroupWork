@@ -19,6 +19,12 @@
 				div.style.display = "none";
 			}
 		
+			function hidepopup()
+			{
+				var div = document.getElementById("popup")
+				div.style.display = "none";
+			}		
+
 			</script>	
 		
 		
@@ -63,19 +69,26 @@
 		</div>
 			
 			
-			
-			
+		
 		</Div>	
+		
+		
+		<div id="popup">   <!--Creates the popup strip on the page-->
+					<div class="bottomright"> <a onclick="hidepopup()" href='#'> Close </a> </div>
+		</div>
+			
 		
 
 		
 			<p style="           <!--The title for the page-->
 			font-weight: bold;
 			font-size: 2rem;
-			color: white;			
+			color: white;	
+			padding-top: 5rem;
+			text-align: center;
 			">
 			
-			Title
+			Zbrush Sculpts
 			
 			</p>	
 			
@@ -93,7 +106,7 @@
 		<div id= "Show">
 
 			<model-viewer style="height: 20rem; width: 20rem;" src="models/Table/scene.gltf" auto-rotate camera-controls></model-viewer>
-		
+
 		</div>
 		
 		

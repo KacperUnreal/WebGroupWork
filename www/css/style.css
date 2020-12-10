@@ -7,6 +7,29 @@
 	margin:1rem
 }
 
+#Popup
+{
+	position: absolute;
+	height: 35rem;
+	width: 100%;
+	background-color: rgba(250, 250, 250, 1);
+	z-index: 1000;
+	float: center;
+	top: 25%;
+}
+
+.bottomright 
+{	
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 18px;
+	color: white;
+}
+
+
+
+
 
 .header
 {
