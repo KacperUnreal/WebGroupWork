@@ -12,10 +12,13 @@
 	position: absolute;
 	height: 35rem;
 	width: 100%;
-	background-color: rgba(250, 250, 250, 1);
+	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 1000;
 	float: center;
 	top: 25%;
+	background-image: url("../images/Popup Background.png");
+	background-repeat: repeat;
+	background-size: 25%;
 }
 
 .bottomright 
@@ -40,12 +43,7 @@
 }
 
 
-body 				
-{
-	background-image: url("../images/Background2.png");
-	background-repeat: repeat-y;
-	background-size: 100%;
-}	
+
 
 
 a:link  
