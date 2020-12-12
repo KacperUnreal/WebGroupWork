@@ -65,3 +65,16 @@ a:visited
 	text-decoration: none;
 }
 	
+	
+#CVtitle
+{
+	background-color:rgba(255, 255, 255, 1);  
+	height:5rem;
+	width:25rem;
+	float:center;
+	margin:1rem;
+	positon: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
