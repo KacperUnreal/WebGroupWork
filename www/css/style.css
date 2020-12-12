@@ -73,8 +73,19 @@ a:visited
 	width:25rem;
 	float:center;
 	margin:1rem;
-	positon: absolute;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#CVparagraph
+{
+	background-color:rgba(255, 255, 255, 1);  
+	height:30rem;
+	width:40rem;
+	float:center;
+	margin:1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
