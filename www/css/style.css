@@ -80,23 +80,23 @@ a:visited
 #CVparagraph
 {
 	background-color:rgba(255, 255, 255, 1);  
-
+	height: 25rem;
 	width:30%;
 	float:center;
 	margin:1rem;
 	position: absolute;
-	left: 37.5%;
+	left: 33%;
 }	
 
 #CVparagraph2
 {
 	background-color:rgba(255, 255, 255, 1);  
-	height:30rem;
-	width:40rem;
+	height: 25rem;
+	width:30%;
 	float:center;
 	margin:1rem;
 	position: absolute;
-	left: 37.5%;	
+	left: 33%;	
 	top: 40rem;
 		
 }
@@ -104,8 +104,8 @@ a:visited
 #CVstats
 {
 	background-color:rgba(255, 255, 255, 1);  
-	height:75rem;
-	width:40rem;
+
+	width:25%;
 	position: absolute;
 	margin: 3rem;
 
@@ -114,8 +114,8 @@ a:visited
 #CVstat
 {
 	background-color:rgba(255, 255, 255, 1);  
-	height:40rem;
-	width:40rem;
+
+	width:25%;
 	position: absolute;
 	margin: 3rem;
 	right: 0px;

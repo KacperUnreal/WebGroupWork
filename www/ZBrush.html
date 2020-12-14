@@ -25,6 +25,18 @@
 				div.style.display = "none";
 			}		
 
+			function showContact()
+			{
+				var div = document.getElementById("contact")
+				div.style.display = "block";
+			}
+			
+			function hideContact()
+			{
+				var div = document.getElementById("contact")
+				div.style.display = "none";
+			}
+
 			</script>	
 		
 		
@@ -60,25 +72,55 @@
 					color: white;
 					">
 			
-				<a href="Index.html">Home </a>| Contact | <a href="CV.html">CV </a>| <a onclick="show()" href='#'>About</a>
+				<a href="Index.html">Home </a>|<a onclick="showContact()" href='#'>Contact</a>|<a href="CV.html">CV </a>|<a onclick="show()" href='#'>About</a>
 				
 			</div>	
 			
 			
 		
-		<div id="about" style="display: none; background: black; border: 1rem solid black; position: absolute; right: 1rem; top: 3rem; ">   <!--This is the div that opens when about is clicked-->
+			<div id="about" style="display: none; background: black; border: 1rem solid black; position: absolute; right: 1rem; top: 3rem; ">   <!--This is the div that opens when about is clicked-->
 			
 			<img style="height: 250px" src="images/black.png">
 			
 			<a onclick="hideabout()" href='#'> Close </a>
 		
 		
-		
-		</div>
+			
+			</div>
 			
 			
 		
 		</Div>	
+		
+		<div id="contact" style="display: none;
+								background: url('images/black.png');
+								border: 1rem solid black;
+								position: absolute;
+								right: 1rem;
+								width: 215;
+								height: 70;
+								top: 3rem; ">   <!--This is the div that opens when Contact is clicked-->
+			
+
+			
+
+			
+			<div>	
+				<img style=" width: 50;" src="icons/facebook.png">
+				<img style=" width: 50; padding-bottom: 5px;" src="icons/Gmail.png">	
+				<img style=" width: 50;" src="icons/instagram.png">	
+				<img style=" width: 50;" src="icons/linkedin.png">					
+				
+			</div>
+		
+			<a style="float: right;" onclick="hideContact()" href='#'> Close </a>
+			
+		</div>				
+		
+		
+		
+		
+		
 		
 		
 		<div id="Popup" class="fader">   <!--Creates the popup strip on the page-->
