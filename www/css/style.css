@@ -80,8 +80,8 @@ a:visited
 #CVparagraph
 {
 	background-color:rgba(255, 255, 255, 1);  
-	height:30rem;
-	width:40rem;
+
+	width:30%;
 	float:center;
 	margin:1rem;
 	position: absolute;
