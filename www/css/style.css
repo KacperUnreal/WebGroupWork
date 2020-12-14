@@ -123,3 +123,18 @@ a:visited
 
 }
 
+.fader
+{
+	animation: fade 2s
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0%;
+	}
+	
+	100% {
+		opacity: 80%;
+	}
+}
+
