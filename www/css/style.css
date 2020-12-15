@@ -7,6 +7,15 @@
 	margin:1rem
 }
 
+#Show2
+{
+	background-color:rgba(0, 0, 0, 0.4);  
+	height:11rem;
+	width:20rem;
+	float:left;
+	margin:1rem
+}
+
 #Popup
 {
 	position: absolute;
