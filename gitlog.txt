@@ -1,0 +1,167 @@
+commit 6cc26f9521fe943ce75fd787e99b6119032d077a
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 12:14:19 2020 +0000
+
+    Added the about changes to all the sites
+
+commit a0bd86f877fdc39f371403c7b7c6d0aa667c2688
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 12:08:05 2020 +0000
+
+    Added my image and a paragraph with borders in my About section
+
+commit 00fddc691daf1de0c951a59c77ce5bc9b9d41b95
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:39:49 2020 +0000
+
+    added videos to UE4 page
+
+commit a455f9e4ff63bbab6d6e65774945f7fed067e440
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:38:28 2020 +0000
+
+    Created new div's for the UE4 page to compliment video size
+
+commit 021576f48f64e56a058814ad80018d6a1c6aa18d
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:33:38 2020 +0000
+
+    Created The Unreal Engine 4 webpage and linked back to index
+
+commit d61678898e304606e64f7e57165063f21f1d0617
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:28:33 2020 +0000
+
+    Added the substance designer webpage the same way as the Maya one
+
+commit 6ce3d26353ad0cbe6cd8b8a70b0c152e1f0b59e6
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:08:43 2020 +0000
+
+    Changed the titles to Maya
+
+commit 559f80c5e559a2f4b4dec4768af8dc875d4ab856
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 11:06:42 2020 +0000
+
+    optimized the top header and added a background to Maya
+
+commit 55b92f9d7423e38fc6bc2d93ca5c1a4d569658c1
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 10:22:33 2020 +0000
+
+    created a Maya page based on Zbrush and linked it to the index page
+
+commit 7de9733f3007cdd043ade218d6f1186ac6173f5f
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 17:50:22 2020 +0000
+
+    made the CV page auto scale with % width and added the icons to Zbrush html file
+
+commit cd66b985af9422392446f7bf38ada68b93fc07d4
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 13:46:46 2020 +0000
+
+    Added a Contact javascript with icons
+
+commit 406ad48ab3ae514636695551064691481cd9bc0b
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 13:17:06 2020 +0000
+
+    Added a fade in to my popup div
+
+commit 2709be4470cbeeecfef4fa685d6df0c34c7c31d0
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 18:21:06 2020 +0000
+
+    Added a hard skills and soft skills section in my CV page
+
+commit 8c88913acb9b6ade7c4eed7d2f08c20e95b74fae
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 17:12:03 2020 +0000
+
+    added icons for the CV page and added paragraph divs to it
+
+commit 46022d348305138ea3106be34224e74a10715f7e
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 16:42:07 2020 +0000
+
+    connected CV to css stylesheet and added a div to it
+
+commit 0163021a8372e448561f1b8f642c0ffe5490b9a2
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 15:58:25 2020 +0000
+
+    added a background to CV and linked it with the headers in the current sites
+
+commit 3aa1724647c70b59bcad96a02ca7347cd7898817
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 15:39:09 2020 +0000
+
+    created a CV page
+
+commit 02fcb6cbf03b7f540c3a41f82ab26835eadf5c58
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 15:32:24 2020 +0000
+
+    added icons for contact
+
+commit 98081dfb469d57290984ce6196bc9f91b13cc767
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 15:57:25 2020 +0000
+
+    finessed the popup on Zbrush
+
+commit 74d9b9c33415605e47c308f4952c59bd357ce7d2
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 15:26:09 2020 +0000
+
+    Finished the popup in Zbrush and started adding different backgrounds to each page
+
+commit 598c76fbbf099817d09e3babbb3792b954054b98
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 14:12:58 2020 +0000
+
+    Added a popup div in the ZBrush page
+
+commit fa8a61f32b93c1f9e0822ecf4b182301315718dd
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 10:23:09 2020 +0000
+
+    Changed backgrounds and optimised some fonts
+
+commit 5a991cec7f2387060de632013f349c3bd4341de8
+Author: Your Name <you@example.com>
+Date:   Mon Nov 30 15:04:32 2020 +0000
+
+    changed the website background, and also extended the size of the about section
+
+commit 8fc7d2a1ec33cad8309ccd1042f3bb69dee478d4
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 18:55:08 2020 +0000
+
+    Added 3d models in my zbrush site
+
+commit 713c6767ba002e780059a8d0682b7cc0916a4c9f
+Author: Your Name <you@example.com>
+Date:   Mon Nov 16 14:59:30 2020 +0000
+
+    commented and annotated the current sites
+
+commit ab9309996f16c4ded46fe9698f43c07c92b7beeb
+Author: Your Name <you@example.com>
+Date:   Mon Nov 16 13:19:23 2020 +0000
+
+    fixed the stylesheet and reconnected it to Index.html
+
+commit dc439232a13cf5d391ee16732c26c0e3670a4f79
+Author: Your Name <you@example.com>
+Date:   Mon Nov 16 13:02:46 2020 +0000
+
+    I updated my styles class
+
+commit f992c9fa113616cf417883c00ade0d4a0ce34732
+Author: KacperUnreal <72559166+KacperUnreal@users.noreply.github.com>
+Date:   Thu Oct 15 14:08:20 2020 +0100
+
+    Initial commit
